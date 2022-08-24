@@ -1,0 +1,15 @@
+D:\Projects CS\HomeWork11\HomeWork11\bin\Debug\net6.0\HomeWork11.exe
+D:\Projects CS\HomeWork11\HomeWork11\bin\Debug\net6.0\HomeWork11.deps.json
+D:\Projects CS\HomeWork11\HomeWork11\bin\Debug\net6.0\HomeWork11.runtimeconfig.json
+D:\Projects CS\HomeWork11\HomeWork11\bin\Debug\net6.0\HomeWork11.dll
+D:\Projects CS\HomeWork11\HomeWork11\bin\Debug\net6.0\HomeWork11.pdb
+D:\Projects CS\HomeWork11\HomeWork11\obj\Debug\net6.0\HomeWork11.csproj.AssemblyReference.cache
+D:\Projects CS\HomeWork11\HomeWork11\obj\Debug\net6.0\HomeWork11.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects CS\HomeWork11\HomeWork11\obj\Debug\net6.0\HomeWork11.AssemblyInfoInputs.cache
+D:\Projects CS\HomeWork11\HomeWork11\obj\Debug\net6.0\HomeWork11.AssemblyInfo.cs
+D:\Projects CS\HomeWork11\HomeWork11\obj\Debug\net6.0\HomeWork11.csproj.CoreCompileInputs.cache
+D:\Projects CS\HomeWork11\HomeWork11\obj\Debug\net6.0\HomeWork11.dll
+D:\Projects CS\HomeWork11\HomeWork11\obj\Debug\net6.0\refint\HomeWork11.dll
+D:\Projects CS\HomeWork11\HomeWork11\obj\Debug\net6.0\HomeWork11.pdb
+D:\Projects CS\HomeWork11\HomeWork11\obj\Debug\net6.0\HomeWork11.genruntimeconfig.cache
+D:\Projects CS\HomeWork11\HomeWork11\obj\Debug\net6.0\ref\HomeWork11.dll

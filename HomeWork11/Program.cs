@@ -5,7 +5,7 @@ internal class Program
     private static void Main(string[] args)
     {
         int minValue = 3;
-        int maxValue = 5;
+        int maxValue = 101;
         int firstМultiplicity = 3;
         int secondМultiplicity = 5;
         int newValue = 0;

@@ -4,29 +4,28 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        int finalCount = 0;        
+        int minValue = 3;
+        int maxValue = 5;
+        int firstМultiplicity = 3;
+        int secondМultiplicity = 5;
         int newValue = 0;
-
-        Random rand = new Random();
-        int number = rand.Next(3, 101);
+        int finalCount = 0;        
+        
+        Random randomNumber = new Random();
+        int number = randomNumber.Next(minValue, maxValue);
 
         Console.WriteLine(number);
         Console.WriteLine("Начинаем ряд");
 
-
         for (int count = 3; count <= number; count++)
         {            
-            int checkDivisionByThree = count % 3;
-            int checkDivisionByFive = count % 5;
+            int checkFirstDivision = count % firstМultiplicity;
+            int checkSecondDivision = count % secondМultiplicity;
 
-            if (checkDivisionByThree == 0 || checkDivisionByFive == 0)
+            if (checkFirstDivision == 0 || checkSecondDivision == 0)
             {
                 Console.WriteLine(count);
                 newValue += count;                
-            }
-            else
-            {
-                continue;
             }            
         }
         finalCount = number + newValue;

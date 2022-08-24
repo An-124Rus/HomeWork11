@@ -17,12 +17,12 @@ internal class Program
         Console.WriteLine(number);
         Console.WriteLine("Начинаем ряд");
 
-        for (int count = 3; count <= number; count++)
+        for (int firstRowValue = 3; firstRowValue <= number; firstRowValue++)
         {
-            if (count % firstМultiplicity == 0 || count % secondМultiplicity == 0)
+            if (firstRowValue % firstМultiplicity == 0 || firstRowValue % secondМultiplicity == 0)
             {
-                Console.WriteLine(count);
-                newValue += count;                
+                Console.WriteLine(firstRowValue);
+                newValue += firstRowValue;                
             }            
         }
         finalCount = number + newValue;

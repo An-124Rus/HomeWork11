@@ -8,8 +8,7 @@ internal class Program
         int maxValue = 101;
         int firstМultiplicity = 3;
         int secondМultiplicity = 5;
-        int newValue = 0;
-        int finalCount = 0;        
+        int newValue = 0;               
         
         Random randomNumber = new Random();
         int number = randomNumber.Next(minValue, maxValue);
@@ -25,7 +24,7 @@ internal class Program
                 newValue += firstRowValue;                
             }            
         }
-        finalCount = number + newValue;
+        int finalCount = number + newValue;
 
         Console.WriteLine(finalCount);        
     }

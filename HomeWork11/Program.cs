@@ -29,6 +29,7 @@ internal class Program
             }            
         }
         finalCount = number + newValue;
+
         Console.WriteLine(finalCount);        
     }
 }

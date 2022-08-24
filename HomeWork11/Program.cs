@@ -18,11 +18,8 @@ internal class Program
         Console.WriteLine("Начинаем ряд");
 
         for (int count = 3; count <= number; count++)
-        {            
-            int checkFirstDivision = count % firstМultiplicity;
-            int checkSecondDivision = count % secondМultiplicity;
-
-            if (checkFirstDivision == 0 || checkSecondDivision == 0)
+        {
+            if (count % firstМultiplicity == 0 || count % secondМultiplicity == 0)
             {
                 Console.WriteLine(count);
                 newValue += count;                

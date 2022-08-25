@@ -8,7 +8,7 @@ internal class Program
         int maxValue = 101;
         int firstМultiplicity = 3;
         int secondМultiplicity = 5;
-        int summ = 0;               
+        int sum = 0;               
         
         Random randomNumber = new Random();
         int number = randomNumber.Next(minValue, maxValue);
@@ -21,9 +21,10 @@ internal class Program
             if (i % firstМultiplicity == 0 || i % secondМultiplicity == 0)
             {
                 Console.WriteLine(i);
-                summ += i;                
+                sum += i;                
             }            
-        }        
-        Console.WriteLine(summ);        
+        }
+        
+        Console.WriteLine(sum);        
     }
 }

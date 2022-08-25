@@ -8,7 +8,7 @@ internal class Program
         int maxValue = 101;
         int firstМultiplicity = 3;
         int secondМultiplicity = 5;
-        int newValue = 0;               
+        int summ = 0;               
         
         Random randomNumber = new Random();
         int number = randomNumber.Next(minValue, maxValue);
@@ -16,16 +16,14 @@ internal class Program
         Console.WriteLine(number);
         Console.WriteLine("Начинаем ряд");
 
-        for (int firstRowValue = 3; firstRowValue <= number; firstRowValue++)
+        for (int i = 1; i <= number; i++)
         {
-            if (firstRowValue % firstМultiplicity == 0 || firstRowValue % secondМultiplicity == 0)
+            if (i % firstМultiplicity == 0 || i % secondМultiplicity == 0)
             {
-                Console.WriteLine(firstRowValue);
-                newValue += firstRowValue;                
+                Console.WriteLine(i);
+                summ += i;                
             }            
-        }
-        int finalCount = number + newValue;
-
-        Console.WriteLine(finalCount);        
+        }        
+        Console.WriteLine(summ);        
     }
 }
